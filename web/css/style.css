@@ -5,7 +5,7 @@ html {
 	 scroll-behavior: smooth ;
 }
 body {
-	margin: 0; 
+	margin: ; 
 }
 .main__conteiner {
 	max-width: 1400px;
@@ -32,8 +32,7 @@ body {
 }
 .menu__2 {
 	margin: 0 0 0 0;
-	background-color: white;
-	opacity: 0.65;
+	background-color: rgb(255, 255, 255, 0.3);
 	padding:30px;
 	width: 100%;
 	list-style: none;
@@ -59,7 +58,7 @@ body {
  	width: 7.5%;
  	cursor: pointer;
  	margin-right: 40px;
- 	opacity: 1;
+ 	opacity: 1; !important; 
  	z-index: 5;
  }
  .fresh__conteiner {
@@ -445,6 +444,6 @@ b {
 }
 .blog__conteiner {
 	width: 100%;
-	height: 500px;
+	height: 500px; 
 	background-color:  #b07cf7;
 }
